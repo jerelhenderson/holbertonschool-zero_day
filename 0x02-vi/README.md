@@ -1,17 +1,22 @@
-vi is the better version of emacs, from Bill Joy.
+# Holberton School - Zero Day
+## 0x01 - vi
 
-Creating files in vi is easier than emacs: vi filename
-Exiting vi makes more sense than vi: :q
+### Purpose
+This introductory vi project covers
+* basic vi commands
 
-insert mode --> typing time
-command mode --> morphing time
+### Requirements
+* Ubuntu 14.04 LTS
 
-Ok, I don't get why all these commands are necessary when 'Backspace' exists, but at least it's better
-than that damn CTRL button *TWICE*.
-
-To copy and paste, you yy-Wild Thoughts that text and p-ut that shit wherever you want afterwards.
-
-Front slash like Michael Myers, then find that word!
-Question mark for searching backwards, because who knows why we can't use back slash.
-
-Who would have thought "u" would undo?
+### File List
+| Program	  | Description						     |
+| --------------- |:--------------------------------------------------------:|
+| 0-inserting  | insert text before cursor |
+| 1-cutting | cut current line |
+| 2-pasting | paste lines in buffer after current line |
+| 3-undoing | command to undo |
+| 4-exiting |  quit vi w/o saving latest changes |
+| 5-beginning_line | move cursor to start of current line |
+| 6-end_line | move cursor to end of line |
+| 100-move_to_line | move cursor to line 32 |
+| 101-delete_line | delete current and previous line |
